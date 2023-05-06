@@ -1,0 +1,9 @@
+.main-productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-inline: 1.6rem;
+    gap: 2rem;
+    margin-block: 2.5rem;
+}

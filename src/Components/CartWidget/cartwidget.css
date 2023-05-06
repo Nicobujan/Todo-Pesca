@@ -1,0 +1,35 @@
+.cartWidget-container {
+    background-color: #fee801;
+    color: #27292b;
+    display: flex;
+    gap: .8rem;
+    justify-content: center;
+    align-items: center;
+    padding: .3rem .8rem;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.cartWidget-cart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .3rem;
+}
+
+.carrito-icon {
+    font-size: 1.5rem;
+}
+
+.carrito-cant {
+    font-size: 1.2rem;
+}
+
+.carrito-total {
+    font-size: .8rem;
+    background-color: #27292b;
+    color: #fee801;
+    padding: .25rem;
+    border-radius: 5px;
+}
