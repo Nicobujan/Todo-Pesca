@@ -1,18 +1,20 @@
 import React, { useContext } from "react";
 import CartWidget from "../CartWidget/CartWidget";
+
 import NavItem from "../NavItem/NavItem";
 import { cartContext } from "../../Context/cartContext";
 import "./navbar.css";
+import { Link } from "react-router-dom";
 
 function NavBar() {
   const { getCantItems } = useContext(cartContext);
 
   return (
     <nav className="nav-header">
-      <a href="/" id="LOGO">
+      <Link to="/" id="LOGO">
         <h2 className="pageName">Todo</h2>
         <h3 className="namePage">Pesca</h3>
-      </a>
+      </Link>
 
       <ul className="nav-menu">
         <NavItem nombre="Cañas baitcast" categoria="/category/baitcast" />
