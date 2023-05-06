@@ -13,12 +13,12 @@ import {
 } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDzXm5EKMi0ca-K6IwnVEYCgmuL_7ziTYc",
-  authDomain: "todo-pesca-78383.firebaseapp.com",
-  projectId: "todo-pesca-78383",
-  storageBucket: "todo-pesca-78383.appspot.com",
-  messagingSenderId: "747984303310",
-  appId: "1:747984303310:web:d438f953431c8d97c2cc9f",
+  apiKey: process.env.REACT_APP_apiKey,
+  authDomain: process.env.REACT_APP_authDomain,
+  projectId: process.env.REACT_APP_projectId,
+  storageBucket: process.env.REACT_APP_storageBucket,
+  messagingSenderId:process.env.REACT_APP_messagingSenderId,
+  appId: process.env.REACT_APP_apiId,
 };
 
 // Initialize Firebase
