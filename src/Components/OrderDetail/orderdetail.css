@@ -1,0 +1,12 @@
+.orderDetailContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-block: 2rem;
+}
+
+.order-id {
+    font-weight: 600;
+}

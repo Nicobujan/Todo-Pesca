@@ -1,0 +1,40 @@
+.itemCount-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #d4d4d41d;
+    padding: 1rem;
+    border-radius: 7px;
+    gap: 1rem;
+  }
+  
+  .itemCount-container p {
+    font-size: .9rem;
+    color: #f5f5f5;
+  }
+  
+  .container {
+    border: 0;
+    padding-block: 0.5rem;
+    padding-inline: 0.8rem;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    background-color: #f5f5f5;
+  }
+    
+  .btnRestar,
+  .btnSumar {
+    border: 0;
+    background-color: transparent;
+    color: #27292b;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+    
+  .numero {
+    font-size: 1rem;
+  }

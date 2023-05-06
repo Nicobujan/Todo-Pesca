@@ -1,0 +1,12 @@
+.divForm {
+    display: flex;
+  }
+    
+  .divForm-label {
+    width: 100px;
+  }
+  
+  .divForm-input {
+    background-color: #f5f5f5;
+    border: 0;
+  }

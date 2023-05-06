@@ -1,5 +1,5 @@
 .cartWidget-container {
-    background-color: #fee801;
+    background-color: #003B46;
     color: #27292b;
     display: flex;
     gap: .8rem;
@@ -20,16 +20,18 @@
 
 .carrito-icon {
     font-size: 1.5rem;
+    color: yellow;
 }
 
 .carrito-cant {
     font-size: 1.2rem;
+    color: yellow;
 }
 
 .carrito-total {
     font-size: .8rem;
-    background-color: #27292b;
-    color: #fee801;
+    background-color: #66A5AD;
+    color: yellow;
     padding: .25rem;
     border-radius: 5px;
 }

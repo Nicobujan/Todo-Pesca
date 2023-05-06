@@ -1,13 +1,15 @@
 .producto {
     width: 17rem;
-    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    box-shadow: 0 0 10px rgba(1, 54, 70, 0.2);
     border-radius: .8rem;
-    background-color: #27292b;
+    background-color: #66A5AD;
     color: #f5f5f5;
 }
 
 .producto img {
     max-width: 100%;
+    width: 300px;
+    height: 250px;
     border-top-left-radius: .8rem;
     border-top-right-radius: .8rem;
 }
@@ -18,7 +20,7 @@
     justify-content: center;
     align-items: center;
     gap: .25rem;
-    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    box-shadow: 0 0 10px rgba(75, 255, 216, 0.719);
     padding: 1rem;
     margin-top: -.5rem;
     border-bottom-left-radius: .8rem;
@@ -26,5 +28,5 @@
 }
 
 .producto-descripcion small {
-    color: #f5f5f5;
+    color: #0a0000;
 }

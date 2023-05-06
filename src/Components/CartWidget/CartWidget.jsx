@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 function CartWidget () {
 
-    const { getCantItems, getTotalPriceInCart } = useContext(cartContext);
+    const { getCantItems } = useContext(cartContext);
 
     return (
     <Link className="cartWidget-container" to="/cart">
@@ -13,7 +13,7 @@ function CartWidget () {
             <i className="carrito-icon bi bi-cart-fill"></i>
             <p className="carrito-cant">{ getCantItems() }</p>
         </div>
-        <p className="carrito-total">${ getTotalPriceInCart() }</p>
+        
     </Link>
     );
 }

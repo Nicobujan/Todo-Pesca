@@ -1,0 +1,29 @@
+.cartForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.25rem;
+    background-color: #27292b;
+    color: #66A5AD;
+    padding: 1.5rem;
+    border-radius: .5rem 1.5rem;
+}
+
+.cartForm-btn {
+    display: flex;
+    gap: .8rem;
+}
+
+.cartForm-btn button {
+    background-color: #4cc9e9;
+    color: #27292b;
+    font-weight: 500;
+    padding: .3rem;
+    border: 0;
+    border-radius: .3rem;
+    cursor: pointer;
+}
+
+.cartForm-btn button:hover {
+    background-color: #c7bb3b;
+}

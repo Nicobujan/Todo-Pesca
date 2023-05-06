@@ -22,10 +22,10 @@ import Swal from "sweetalert2";
               Swal.fire({
                   text: `Agregaste ${item.titulo} (Cant : ${count}) al carrito`,
                   icon: 'success',
-                  background: '#fee801',
+                  background: '#66A5AD',
                   color: '#27292b',
                   iconColor: 'green',
-                  confirmButtonColor: '#27292b',
+                  confirmButtonColor: 'green',
               })
   
               setCart([...newCart]);
@@ -34,10 +34,10 @@ import Swal from "sweetalert2";
               Swal.fire({
                   text: "No hay suficiente Stock",
                   icon: 'error',
-                  background: '#fee801',
+                  background: '#66A5AD',
                   color: '#27292b',
                   iconColor: 'red',
-                  confirmButtonColor: '#27292b',
+                  confirmButtonColor: 'red',
               })
           }
           
@@ -47,10 +47,10 @@ import Swal from "sweetalert2";
           Swal.fire({
               text: `Agregaste ${item.titulo} (Cant : ${count}) al carrito`,
               icon: 'success',
-              background: '#fee801',
+              background: '#66A5AD',
               color: '#27292b',
               iconColor: 'green',
-              confirmButtonColor: '#27292b',
+              confirmButtonColor: 'green',
           })
   
           

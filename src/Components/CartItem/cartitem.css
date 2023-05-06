@@ -1,0 +1,36 @@
+.cart-item {
+    display: grid;
+    grid-template-columns: .7fr 3fr 1fr 1fr 1fr .5fr;
+    align-items: center;
+    gap: 4rem;
+    color: #C4DFE6;
+}
+
+.cart-item img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.cart-item__titulo {
+    font-size: 1.2rem;
+    font-weight: bold;
+    
+}
+
+.cart-item__cantidad,
+.cart-item__precio {
+    font-weight: bold;
+}
+
+.cart-item__borrar {
+    width: max-content;
+    cursor: pointer;
+    background-color: transparent;
+    border: 0;
+    font-size: 1.2rem;
+    color: red;
+}
+
+.cart-item small{ 
+    font-size: .8rem;
+}
